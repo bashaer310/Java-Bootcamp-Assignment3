@@ -38,7 +38,7 @@ public class Main {
         //Q2.Write a Java program to find the k largest elements in a given array. Elements in the array can be in any order.
 
         /*int[] numbers = {1, 4, 17, 7, 25, 3, 100};
-        System.out.println("Please enter the count of largest elements ");
+        System.out.println("Please enter the counts of the largest elements ");
         Scanner input = new Scanner(System.in);
         int lCount=input.nextInt();
         int temp = 0;
@@ -124,7 +124,7 @@ public class Main {
         //Q7.Write a menu driven Java program with following option:
 
         /*Scanner input = new Scanner(System.in);
-        System.out.println("Please enter size of the array ");
+        System.out.println("Please enter the size of the array ");
         int size=input.nextInt();
         input.nextLine();
         int[] numbers = new int[size];
@@ -144,7 +144,7 @@ public class Main {
                     input.nextLine();
                     count++;}
                     else {
-                        System.out.println("\nCan't add an element, size of the array is full ");
+                        System.out.println("\nCan't add an element, the size of the array is full ");
                     }
                     break;
                 case 2:
