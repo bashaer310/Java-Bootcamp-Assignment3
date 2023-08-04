@@ -38,7 +38,7 @@ public class Main {
         //Q2.Write a Java program to find the k largest elements in a given array. Elements in the array can be in any order.
 
         /*int[] numbers = {1, 4, 17, 7, 25, 3, 100};
-        System.out.println("Please enter the counts of the largest elements ");
+        System.out.println("How many numbers do you want to display of the largest elements ");
         Scanner input = new Scanner(System.in);
         int lCount=input.nextInt();
         int temp = 0;
@@ -76,7 +76,7 @@ public class Main {
         /*int[] numbers = {20, 30, 40};
 
         int l = Math.max(numbers[0],numbers[numbers.length-1]);
-        System.out.println("Larger value between first and last element "+ l);*/
+        System.out.println("The larger value between the first and last element "+ l);*/
 
         //Q5.Write a Java program to swap the first and last elements of an array and create a new array.
 
@@ -88,7 +88,7 @@ public class Main {
         numbers[numbers.length-1]=temp;
 
         newArr = numbers;
-        System.out.println("New array after swapping the first and last elements "+Arrays.toString(newArr));*/
+        System.out.println("The new array after swapping the first and last elements "+Arrays.toString(newArr));*/
 
 
         //Q6.Write a Java program to find all of the longest word in a given dictionary.
@@ -115,7 +115,7 @@ public class Main {
             //to keep the longest length of the words in 'mLength' var
             lLength=Math.max(words.get(i).length(),lLength);
 
-        System.out.print("Result ");
+        System.out.print("The result is ");
         for (String word:words) {
             if (word.length()==lLength)
                 System.out.print("\""+word +"\",");
