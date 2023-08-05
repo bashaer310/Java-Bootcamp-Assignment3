@@ -38,7 +38,7 @@ public class Main {
         //Q2.Write a Java program to find the k largest elements in a given array. Elements in the array can be in any order.
 
         /*int[] numbers = {1, 4, 17, 7, 25, 3, 100};
-        System.out.println("How many numbers do you want to display of the largest elements ");
+        System.out.println("How many largest elements do you want to display ");
         Scanner input = new Scanner(System.in);
         int lCount=input.nextInt();
         int temp = 0;
@@ -65,7 +65,7 @@ public class Main {
             sum += numbers[i];
 
         double average = sum/numbers.length;
-        System.out.print("The average of the array is " +average+" The numbers in the array that are greater than the average are ");
+        System.out.print("The average of the array is " +average+", the numbers in the array that are greater than the average are ");
         for (int number:numbers) {
             if(number>average)
                 System.out.print(number+" ");
@@ -88,7 +88,7 @@ public class Main {
         numbers[numbers.length-1]=temp;
 
         newArr = numbers;
-        System.out.println("The new array after swapping the first and last elements "+Arrays.toString(newArr));*/
+        System.out.println("The new array after swapping between the first and last elements "+Arrays.toString(newArr));*/
 
 
         //Q6.Write a Java program to find all of the longest word in a given dictionary.
@@ -102,7 +102,7 @@ public class Main {
             String word= input.nextLine();
             words.add(word);
 
-            System.out.println("to exit enter Yes");
+            System.out.println("To exit enter Yes");
             answer = input.nextLine().toLowerCase();
 
 
@@ -144,7 +144,7 @@ public class Main {
                     input.nextLine();
                     count++;}
                     else {
-                        System.out.println("\nCan't add an element, the size of the array is full ");
+                        System.out.println("\nCan't add an element, the array is full ");
                     }
                     break;
                 case 2:
@@ -153,7 +153,7 @@ public class Main {
                     for (int i = 0; i < count; i++) {
                         System.out.print(numbers[i]+", ");
                     }}else{
-                        System.out.print("\nThere are not elements in the array  ");
+                        System.out.print("\nThe array is empty  ");
                     }
                     break;
 
@@ -171,7 +171,7 @@ public class Main {
                         }
                     }
                         if(isFound) {
-                            System.out.print(number + " is found at index ");
+                            System.out.print(number + " is found at the index ");
                             for (int i:indexes) {
                                 System.out.print(i+", ");
                             }
@@ -181,7 +181,7 @@ public class Main {
 
                     }
                     else {
-                        System.out.print("\nThere are not elements in the array  ");
+                        System.out.print("\nThe array is empty  ");
                     }
                     break;
 
@@ -206,7 +206,7 @@ public class Main {
 
                     }
                     else {
-                        System.out.print("\nThere are not elements in the array  ");
+                        System.out.print("\nThe array is empty  ");
                     }
                     break;
 
